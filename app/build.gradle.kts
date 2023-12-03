@@ -11,11 +11,11 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mhss.app.mybrain"
+        applicationId = "work.mywild.mybrain"
         minSdk = 26
         targetSdk = 34
-        versionCode = 7
-        versionName = "1.0.6"
+        versionCode = 2
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -34,7 +34,7 @@ android {
         debug {
             isMinifyEnabled = false
             applicationIdSuffix = ".debug"
-            resValue("string", "app_name", "MyBrain Debug")
+            resValue("string", "app_name", "Task Maestro")
         }
     }
     compileOptions {
